@@ -77,8 +77,12 @@ public class PlusTests {
     }
 
     @Test
-    public void TestWrapper(User user){
+    public void TestWrapper(){
         LambdaQueryWrapper<User> wrapper = new LambdaQueryWrapper<>();
+        User user = new User();
+        user.setName("levi");
+        user.setAge("22");
+
         List<Integer> idList = new ArrayList<>();
         idList.add(1);
         idList.add(2);
