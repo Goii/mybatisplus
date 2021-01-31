@@ -581,3 +581,6 @@ List<MysqlData> getAll(Wrapper ew);
 # 延伸阅读
 MybatisPlus官网：
 https://baomidou.com/guide/#%E7%89%B9%E6%80%A7
+
+官网Demo:
+https://github.com/baomidou/mybatis-plus-samples.git
